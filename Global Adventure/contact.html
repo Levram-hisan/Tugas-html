@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hubungi Urban Trails untuk berbagi cerita, rekomendasi wisata, dan inspirasi perjalanan Indonesia.">
+    <title>Kontak | Urban Trails</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container navbar">
+        <a href="index.html" class="logo">URBAN<span>TRAILS.</span></a>
+        <nav aria-label="Navigasi utama">
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="jakarta.html">Jakarta</a></li>
+                <li><a href="surabaya.html">Surabaya</a></li>
+                <li><a href="semarang.html">Semarang</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="contact.html" aria-current="page">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-banner">
+        <div class="container">
+            <p class="breadcrumb"><a href="index.html">Beranda</a> / Kontak</p>
+            <p class="eyebrow">Mari Terhubung</p>
+            <h1>Hubungi Urban Trails</h1>
+            <p>
+                Bagikan pengalaman perjalanan, rekomendasi destinasi,
+                atau pertanyaan tentang Jakarta, Surabaya, dan Semarang.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container form-layout">
+
+            <div class="content">
+                <p class="eyebrow">Tentang Komunitas Kami</p>
+                <h2>Setiap Cerita Layak Dibagikan</h2>
+                <p>
+                    Urban Trails dibuat sebagai ruang untuk
+                    memperkenalkan kota-kota Indonesia melalui
+                    sejarah, budaya, kuliner, dan pengalaman
+                    menjelajahi destinasi baru.
+                </p>
+                <p>
+                    Kami mengundang pembaca untuk berbagi rekomendasi,
+                    menyampaikan pertanyaan, dan memberikan saran
+                    untuk pengembangan blog ini.
+                </p>
+
+                <h3>Topik yang Bisa Dibagikan</h3>
+                <ul class="info-list">
+                    <li>Rekomendasi tempat wisata.</li>
+                    <li>Pengalaman mencicipi kuliner lokal.</li>
+                    <li>Informasi budaya dan sejarah kota.</li>
+                    <li>Saran dan masukan untuk website.</li>
+                </ul>
+
+                <div class="note">
+                    <strong>Informasi:</strong>
+                    Formulir pada versi ini merupakan demonstrasi
+                    pembelajaran. Pesan belum dikirim ke server
+                    atau alamat email tertentu.
+                </div>
+            </div>
+
+            <div class="form-card">
+                <h2>Formulir Kontak</h2>
+                <p style="margin: 8px 0 24px; color: var(--muted);">
+                    Isi informasi berikut untuk mencoba formulir.
+                </p>
+
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Masukkan nama lengkap"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="nama@email.com"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subjek Pesan</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Pilih topik pesan</option>
+                            <option value="wisata">Rekomendasi wisata</option>
+                            <option value="kuliner">Kuliner lokal</option>
+                            <option value="budaya">Budaya dan sejarah</option>
+                            <option value="saran">Saran website</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Tuliskan pesan atau pengalaman kamu..."
+                            required></textarea>
+                    </div>
+
+                    <button class="button" type="submit">
+                        Kirim Pesan
+                    </button>
+
+                    <p
+                        class="status-message"
+                        id="contactStatus"
+                        role="status"
+                        aria-live="polite">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light" id="newsletter">
+        <div class="container form-layout">
+            <div class="content">
+                <p class="eyebrow">Newsletter</p>
+                <h2>Jangan Lewatkan Cerita Baru</h2>
+                <p>
+                    Newsletter dirancang untuk memberikan informasi
+                    mengenai artikel terbaru, inspirasi destinasi,
+                    dan rekomendasi perjalanan.
+                </p>
+                <p>
+                    Masukkan alamat email dan setujui persyaratan
+                    untuk mencoba proses pendaftaran pada demo ini.
+                </p>
+            </div>
+
+            <div class="form-card">
+                <h2>Berlangganan</h2>
+                <form id="newsletterForm">
+                    <div class="form-group">
+                        <label for="newsletterEmail">Alamat Email</label>
+                        <input
+                            type="email"
+                            id="newsletterEmail"
+                            name="newsletterEmail"
+                            placeholder="nama@email.com"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <input
+                            type="checkbox"
+                            id="consent"
+                            name="consent"
+                            required>
+                        <label for="consent">
+                            Saya setuju menerima informasi dan cerita
+                            perjalanan melalui email.
+                        </label>
+                    </div>
+
+                    <button class="button" type="submit">
+                        Daftar Newsletter
+                    </button>
+
+                    <p
+                        class="status-message"
+                        id="newsletterStatus"
+                        role="status"
+                        aria-live="polite">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-layout">
+        <div>
+            <a href="index.html" class="logo">URBAN<span>TRAILS.</span></a>
+            <p>Menjelajahi kota, merayakan cerita.</p>
+            <p>&copy; 2026 Urban Trails. All rights reserved.</p>
+        </div>
+
+        <nav class="footer-links" aria-label="Navigasi footer">
+            <a href="index.html">Beranda</a>
+            <a href="jakarta.html">Jakarta</a>
+            <a href="surabaya.html">Surabaya</a>
+            <a href="semarang.html">Semarang</a>
+            <a href="gallery.html">Galeri</a>
+        </nav>
+    </div>
+</footer>
+
+<script>
+    const contactForm = document.getElementById("contactForm");
+    const contactStatus = document.getElementById("contactStatus");
+
+    contactForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        contactStatus.textContent =
+            "Formulir berhasil divalidasi. " +
+            "Pengiriman pesan memerlukan backend.";
+
+        contactForm.reset();
+    });
+
+    const newsletterForm = document.getElementById("newsletterForm");
+    const newsletterStatus = document.getElementById("newsletterStatus");
+
+    newsletterForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        newsletterStatus.textContent =
+            "Formulir berhasil divalidasi. " +
+            "Pendaftaran belum disimpan ke server.";
+
+        newsletterForm.reset();
+    });
+</script>
+
+</body>
+</html>
